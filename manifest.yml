@@ -1,0 +1,7 @@
+---
+applications:
+- buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
+  host: TCS-POC
+  name: TCS-POC
+  memory: 64M
+  stack: cflinuxfs2
