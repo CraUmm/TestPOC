@@ -1,0 +1,88 @@
+<!DOCTYPE html>  
+<html>
+<head>
+<meta charset="ISO-8859-1">
+ <!-- Include meta tag to ensure proper rendering and touch zooming -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Include jQuery Mobile stylesheets -->
+ <!--  <link rel="stylesheet" type="text/css" href="pocstyle.css"> -->
+  <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+ 
+  <!-- Include the jQuery library -->
+ <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <!-- Include the jQuery Mobile library -->
+  <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  
+</head>
+<body>
+
+<div data-role="page" id="pageone">
+  <div data-role="panel" id="myPanel"> 
+    <h2>Menu</h2>
+  	<ul>
+      <li><a href="#pageone">Home</a></li>
+      <li><a href="#pagetwo">Last Search</a></li>
+      <li><a href="#anylink">Search</a></li>
+    </ul>
+    <a href="#pageone" data-rel="close" class="ui-btn ui-btn-inline ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left">Close panel</a>
+  </div> 
+
+  <div data-role="header">
+   	 <div data-role="main" class="ui-content">
+    	<a href="#myPanel" class="ui-btn ui-btn-inline ui-corner-all"><img src= "menu-alt.svg" style="background:none"/></a>		
+ 	 </div>
+  </div>
+  </div>
+
+
+  
+ 
+<div data-role="page" id="pagetwo">
+	<div data-role="panel" id="myPanel"> 
+    <h2>Menu</h2>
+  	<ul>
+      <li><a href="#pageone">Home</a></li>
+      <li><a href="#pagetwo">Last Search</a></li>
+      <li><a href="#anylink">Search</a></li>
+    </ul>
+    <a href="#pageone" data-rel="close" class="ui-btn ui-btn-inline ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left">Close panel</a>
+  </div> 
+
+  	<div data-role="header">
+   	 <div data-role="main" class="ui-content">
+    	<a href="#myPanel" class="ui-btn ui-btn-inline ui-corner-all"><img src= "menu-alt.svg" style="background:none"/></a>		
+ 	 </div>
+  	</div>
+  
+    <div data-role="main" class="ui-content" id="content">
+    <ul id="Link1">
+    
+     <li>
+		  <div data-role="collapsible">
+		  <h2> Honeywell Brakes</h2> 
+		  <p> Aircraft disc brakes in the landing gear, used to brake the wheels while touching the ground </p>
+		  <p> Cost: $2500.00  Order Date: 12/6/15</p>
+		  </div>
+	 </li>
+     
+     <li>
+	  <div data-role="collapsible">
+	  <h2> Humidifier</h2>
+	  <p> Automatic humidity controller </p>
+	   <p> Cost: $1500.00  Order Date: 12/4/15</p>
+	   </div>
+	 </li>
+	  
+     <li>
+	  <div data-role="collapsible">
+	  <h2> Ventilator</h2>
+	  <p> Automatic Ventilation controller </p>
+	   <p> Cost: $500.00  Order Date: 12/7/15</p>
+	   </div>
+	 </li>
+    </ul>
+  </div>
+</div> 
+
+</body>
+</html>
